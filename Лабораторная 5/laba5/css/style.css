@@ -1,0 +1,77 @@
+body {
+    background: url("../resource/school.jpg") no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    align-items: center;
+}
+
+header span {
+    font-size: 40px;
+    font-family: 'Gothic', 'Times New Roman', Verdana sans-serif;
+    color: rgb(228, 185, 105);
+    line-height: 80px;
+}
+
+article {
+    text-align: center;
+    overflow: auto;
+    padding: 5px;
+}
+
+input, button {
+	text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+select {
+	width: 5%;
+	margin: 0 25px;
+}
+
+button {
+    padding: 0px;
+	width: 10%;
+	height: 30px;
+}
+
+input {
+	opacity: 0.9;
+	display: block;
+	margin-left: 35%;
+	width: 35%;
+	height: 30px;
+}
+
+#row {
+    font-size: 15px;
+    border-style: solid;
+    border-color: lightcyan;
+}
+
+#resultTable {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    border-collapse: collapse;
+    line-height: 2.2;
+    background-color: rgb(228, 185, 105);
+    max-height: 444px;
+    border-style: solid;
+    border-color: silver;
+    font-family: 'Gothic', 'Times New Roman', Verdana sans-serif;
+}
+
+#table {
+    display: none;
+}
+
+#fois{
+    background-color: silver;
+    font-family: 'Gothic', 'Times New Roman', Verdana sans-serif;
+}
